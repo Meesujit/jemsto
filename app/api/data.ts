@@ -24,8 +24,8 @@ export const FeatureData: featureData[] = [
 ]
 
 export const FooterLinks: footerlLinksData[] = [
-  { label: 'Product', href: '/#product' },
-  { label: 'Pricing', href: '/#pricing' },
+  { label: 'Home', href: '/#home' },
+  { label: 'Testimonial', href: '/#people' },
   { label: 'Features', href: '/#features ' },
   { label: 'Contact Us', href: '/#contact ' },
 ]

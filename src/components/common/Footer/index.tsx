@@ -12,14 +12,17 @@ const Footer = () => {
         <div className='my-6 grid grid-cols-1 sm:grid-cols-6 lg:grid-cols-12 gap-y-5'>
           {/* COLUMN-1 */}
           <div className='sm:col-span-6 lg:col-span-3'>
-            <div className='flex shrink-0 items-center border-right'>
+            <Link href='/' className='flex items-center gap-2'>
               <Image
-                src='/images/logo/logo-white.svg'
+                src='/images/logo/icon.svg'
                 alt='logo'
-                width={214}
-                height={55}
+                width={160}
+                height={50}
+                style={{ width: 'auto', height: 'auto' }}
+                quality={100}
               />
-            </div>
+              <span className='font-bold text-4xl text-gray-200'>JEMSTO</span>
+            </Link>
           </div>
           <div className='sm:col-span-6 lg:col-span-5 flex items-center'>
             <div className='flex gap-4'>
@@ -48,11 +51,12 @@ const Footer = () => {
         </div>
         <div className='pt-4 flex flex-col sm:flex-row gap-4 items-center justify-between border-t border-t-white/30'>
           <h4 className='text-lg text-center md:text-start font-normal text-white/60'>
-            @2025.All rights reserved by{' '}
+            © {new Date().getFullYear()}. All rights reserved.
+            {' '}
             <Link
-              href='https://getnextjstemplates.com/'
+              href='/'
               className='hover:text-white'>
-              GetNextJs Templates
+              JEMSTO
             </Link>
           </h4>
           <div className='flex gap-5  justify-center items-center md:justify-start'>
