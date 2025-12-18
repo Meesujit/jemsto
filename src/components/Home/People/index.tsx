@@ -22,11 +22,13 @@ const People = () => {
 
                 <div className=''>
                   <p className='text-2xl font-semibold'>Priya Sharma</p>
-                  <p className='text-lg text-black/55'>B.Tech Student, IIT Delhi</p>
+                  <p className='text-lg text-black/55'>
+                    Student, Delhi Public School
+                  </p>
                 </div>
               </div>
               <p className='font-medium text-2xl leading-9'>
-                "JEMSTO saved me from the hostel fee deadline stress! I paid my entire semester fees in under a minute. No bank visits, no queues—just instant payment and peace of mind."
+                "ZEMSTO has completely transformed the way I pay my school fees. The process is so quick and hassle-free. I can pay from anywhere, anytime, without any stress. Highly recommend it to all students!"
               </p>
             </div>
           </div>
@@ -35,7 +37,7 @@ const People = () => {
               Trusted by 120K+ students across India.
             </h2>
             <p className='text-black/75 text-lg font-normal text-center lg:text-start max-w-md mx-auto lg:mx-0'>
-              JEMSTO helps students pay university fees instantly, track payment history, and never miss a deadline—all in one simple app.
+              ZEMSTO helps students pay school fees instantly, track payment history, and never miss a deadline—all in one simple app.
             </p>
             <Link
               href={'/'}

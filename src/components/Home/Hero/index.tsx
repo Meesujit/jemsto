@@ -30,12 +30,12 @@ export default function Banner() {
             />
             <div className='flex flex-col gap-4'>
               <h1 className="text-5xl lg:text-6xl max-w-2xl leading-tight text-midnight_text text-center lg:text-start mx-auto lg:mx-0">
-                Pay university fees <br />
+                Pay school fees <br />
                 <span className="font-bold">instantly, securely, hassle-free.</span>
               </h1>
               <p className='text-black/75 text-base lg:text-lg font-normal text-center lg:text-start max-w-lg mx-auto lg:mx-0'>
-                No more queues, no more delays. Pay your university fees instantly from anywhere,
-                anytime. JEMSTO makes fee payments quick, secure, and stress-free.
+                No more queues, no more delays. Pay your school fees instantly from anywhere,
+                anytime. <span className='font-bold italic'>ZEMSTO</span> makes fee payments quick, secure, and stress-free.
               </p>
               <div className='mx-auto lg:mx-0 mt-2'>
                 <Link href={'/#contact'}>
@@ -46,12 +46,12 @@ export default function Banner() {
               </div>
             </div>
           </div>
-          
+        
           <div className='lg:col-span-5 relative'>
             <div className='relative'>
               <Image
                 src='/images/hero/image.png'
-                alt='JEMSTO app preview'
+                alt='ZEMSTO app preview'
                 width={698}
                 height={652}
                 className='w-full h-auto object-contain'

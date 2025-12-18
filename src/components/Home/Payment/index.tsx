@@ -17,11 +17,11 @@ const Payment = () => {
           </div>
           <div className='col-span-6 flex flex-col gap-5 justify-center'>
             <h2 className='text-midnight_text text-center lg:text-start sm:leading-14 leading-12'>
-              Now it’s time to change the way you pay.
+              Now it's time to change the way you pay.
             </h2>
             <p className='text-black/75 text-lg font-normal text-center lg:text-start sm:leading-140 max-w-2xl lg:max-w-lg mx-auto lg:mx-0'>
-              <span className='font-bold italic'>JEMSTO </span> is more than just a payment app — it's a complete solution for managing
-              your university fees. With JEMSTO, you can pay tuition, track payment history,
+              <span className='font-bold italic'>ZEMSTO </span> is more than just a payment app — it's a complete solution for managing
+              your school fees. With <span className='font-bold italic'>ZEMSTO</span>, you can pay tuition, track payment history,
               set reminders for upcoming deadlines, and much more. Say goodbye to payment
               hassles and hello to financial freedom.
             </p>

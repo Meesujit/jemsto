@@ -16,46 +16,46 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "JEMSTO | Smart & Secure College Fee Payments",
-    template: "%s | JEMSTO",
+    default: "ZEMSTO | Smart & Secure School Fee Payments",
+    template: "%s | ZEMSTO",
   },
   description:
-    "JEMSTO is a secure and easy-to-use payment platform that helps students pay college fees faster. Pay tuition, hostel, and exam fees with confidence.",
+    "ZEMSTO is a secure and easy-to-use payment platform that helps students pay college fees faster. Pay tuition, hostel, and exam fees with confidence.",
   keywords: [
-    "JEMSTO",
-    "college fee payment",
+    "ZEMSTO",
+    "school fee payment",
     "student fee payment",
-    "university fees",
+    "school fees",
     "education payments",
     "online fee payment",
     "student payment gateway",
   ],
-  authors: [{ name: "JEMSTO" }],
-  creator: "JEMSTO",
-  publisher: "JEMSTO",
+  authors: [{ name: "ZEMSTO" }],
+  creator: "ZEMSTO",
+  publisher: "ZEMSTO",
 
   openGraph: {
-    title: "JEMSTO | Smart College Fee Payments",
+    title: "ZEMSTO | Smart School Fee Payments",
     description:
-      "Pay your college fees securely and effortlessly with JEMSTO — the smart payment gateway for students and institutions.",
-    url: "https://jemsto.netlify.app",
-    siteName: "JEMSTO",
+      "Pay your school fees securely and effortlessly with ZEMSTO — the smart payment gateway for students and institutions.",
+    url: "https://zemsto.netlify.app",
+    siteName: "ZEMSTO",
     locale: "en_US",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "JEMSTO | Smart College Fee Payments",
+    title: "ZEMSTO | Smart School Fee Payments",
     description:
-      "A secure and seamless way for students to pay college fees online.",
+      "A secure and seamless way for students to pay school fees online.",
   },
 
   icons: {
     icon: "/favicon.ico",
   },
 
-  metadataBase: new URL("https://jemsto.netlify.app"),
+  metadataBase: new URL("https://zemsto.netlify.app"),
 };
 
 

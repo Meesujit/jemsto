@@ -11,8 +11,8 @@ const Features = () => {
           Everything You Need. Built In.
         </h2>
         <p className='text-black/60 text-lg text-center md:max-w-[60%] mx-auto'>
-          Pay university fees instantly, track payment history, and get reminders for upcoming deadlines. 
-          JEMSTO gives you complete control over your academic payments with zero hassle.
+          Pay school fees instantly, track payment history, and get reminders for upcoming deadlines. 
+          ZEMSTO gives you complete control over your academic payments with zero hassle.
         </p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
           {FeatureData.map((item, i) => (

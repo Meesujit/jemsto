@@ -1,8 +1,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Icon } from '@iconify/react/dist/iconify.js'
-import { FooterLinks, SocialLinks } from '@/app/api/data'
+import { FooterLinks } from '@/app/api/data'
 
 const Footer = () => {
 
@@ -21,7 +20,7 @@ const Footer = () => {
                 style={{ width: 'auto', height: 'auto' }}
                 quality={100}
               />
-              <span className='font-bold text-4xl text-gray-200'>JEMSTO</span>
+              <span className='font-bold text-4xl text-gray-200'>ZEMSTO</span>
             </Link>
           </div>
           <div className='sm:col-span-6 lg:col-span-5 flex items-center'>
@@ -37,7 +36,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className='sm:col-span-6 lg:col-span-4'>
+          {/* <div className='sm:col-span-6 lg:col-span-4'>
             <div className='flex gap-4 lg:justify-end'>
               {SocialLinks.map((items, i) => (
                 <Link href={items.link} key={i}>
@@ -47,7 +46,7 @@ const Footer = () => {
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='pt-4 flex flex-col sm:flex-row gap-4 items-center justify-between border-t border-t-white/30'>
           <h4 className='text-lg text-center md:text-start font-normal text-white/60'>
@@ -56,7 +55,7 @@ const Footer = () => {
             <Link
               href='/'
               className='hover:text-white'>
-              JEMSTO
+              ZEMSTO
             </Link>
           </h4>
           <div className='flex gap-5  justify-center items-center md:justify-start'>

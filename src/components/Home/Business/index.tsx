@@ -9,12 +9,12 @@ const Business = () => {
         <div className='grid grid-cols-1 lg:grid-cols-12 content-center justify-items-center'>
           <div className='lg:col-span-6 flex flex-col gap-5 justify-center'>
             <h2 className="text-midnight_text text-center lg:text-start">
-              A smarter, more secure way to pay college fees.
+              A smarter, more secure way to pay school fees.
             </h2>
 
             <p className="text-black/75 text-lg font-normal text-center lg:text-start sm:leading-140 max-w-2xl lg:max-w-lg mx-auto lg:mx-0">
-              Modern payment platform that simplifies how students pay college fees.
-              From tuition and examination fees to hostels and installment payments, <span className='font-bold italic'>JEMSTO </span>
+              Modern payment platform that simplifies how students pay school fees.
+              From tuition and examination fees to hostels and installment payments, <span className='font-bold italic'>ZEMSTO </span>
               enables fast, transparent, and secure transactions between students and
               institutions.
             </p>

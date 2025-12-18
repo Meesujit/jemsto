@@ -12,7 +12,7 @@ const Logo: React.FC = () => {
         style={{ width: 'auto', height: 'auto' }}
         quality={100}
       />
-      <span className='font-bold text-4xl'>JEMSTO</span>
+      <span className='font-bold text-4xl'>ZEMSTO</span>
     </Link>
   )
 }
